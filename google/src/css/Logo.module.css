@@ -1,0 +1,24 @@
+.logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 92px;
+    max-height: 290px;
+    height: calc(100% - 560px);
+    box-sizing: border-box;
+}
+
+.logoLayout {
+    max-height: 92px;
+    position: relative;
+    height: 100%;
+    margin-top: 198px;
+}
+
+.logoImg {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}

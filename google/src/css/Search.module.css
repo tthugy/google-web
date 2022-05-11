@@ -1,0 +1,199 @@
+.searchArea {
+    padding: 20px;
+    max-height: 160px;
+    box-sizing: border-box;
+}
+
+.searchBox {
+    margin: 0 auto;
+    width: 640px;
+    padding-top: 6px;
+    width: auto;
+    max-width: 584px;
+    position: relative;
+}
+
+.searchEngine {
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background: #202124;
+    border: 1px solid #5f6368;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 638px;
+    width: auto;
+    max-width: 584px;
+}
+
+.searchLayout {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 14px;
+}
+
+.searchIcon {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+}
+
+.sIconBox {
+    margin: auto;
+}
+
+.sIconBox span {
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+    margin-top: 3px;
+    color: #9aa0a6;
+    display: inline-block;
+    fill: currentColor;
+    position: relative;
+}
+
+.sIconBox span svg {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.searchHere {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.searchBrick {
+    color: transparent;
+    flex: 100%;
+    white-space: pre;
+    height: 34px;
+    font-size: 16px;
+}
+
+.searchInput {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: #e8eaed;
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: -37px;
+    height: 34px;
+    font-size: 16px;
+    font-family: Apple SD Gothic Neo,arial,sans-serif;
+}
+
+.searchEngine:hover {
+    background: #2f3133!important;
+    border: 1px solid #2f3133!important;
+}
+
+.searchSpIcon {
+    display: flex;
+    flex: 0 0 auto;
+    margin-top: -5px;
+    align-items: stretch;
+    flex-direction: row;
+}
+
+.delete {
+    flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    line-height: 44px;
+    padding-right: 4px;
+}
+
+.dBox {
+    display: inline-block;
+    fill: currentColor;
+    height: 100%;
+    color: #757b80;
+    vertical-align: middle;
+    outline: none;
+    line-height: 24px;
+    position: relative;
+    width: 24px;
+    margin-right: 12px;
+}
+
+.dBtn {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.dLine {
+    border-left: 1px solid #5f6368;
+    height: 65%;
+}
+
+.srBtn {
+    flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    width: 24px;
+    line-height: 44px;
+}
+
+.keyBtn {
+    background: url(//www.gstatic.com/inputtools/images/tia.png) no-repeat center;
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+
+.srMike {
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+
+.miniBox {
+    height: 70px;
+    padding-top: 18px;
+}
+
+center {
+    display: block;
+}
+
+.miniBtn {
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: Apple SD Gothic Neo,arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 6px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.miniBtn:hover {
+    border: 1px solid #7a8086;
+}

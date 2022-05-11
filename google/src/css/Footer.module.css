@@ -1,0 +1,41 @@
+footer {
+    background: #171717;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 95.5px;
+}
+
+.fBlock {
+    padding: 15px 30px;
+    border-bottom: 1px solid #212327;
+    font-size: 15px;
+    color: #9aa0a6;
+}
+
+.sBlock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+@media (max-width: 1200px) {
+    .sBlock {
+        justify-content: space-evenly;
+    }
+}
+
+.sInnerBlock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sInnerBtn {
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    color: #999da2;
+    text-decoration: none;
+    cursor: pointer;
+}

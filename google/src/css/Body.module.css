@@ -1,0 +1,38 @@
+.bHair {
+    flex-grow: 1;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.red {
+    color: #ff0000;
+    margin-right: 3.1px;
+}
+
+.subLink {
+    color: #8ab4f8;
+    text-decoration: none;
+}
+
+.bIntroBox {
+    font-size: small;
+    margin-bottom: 32px;
+}
+
+.bBox {
+    font-size: small;
+    margin-bottom: 24px;
+}
+
+.bLayout {
+    color: #bdc1c6;
+    display: inline-block;
+    line-height: 28px;
+}
+
+.bTransBtn {
+    color: #8ab4f8;
+    text-decoration: none;
+    padding: 0 3px;
+    margin-left: 3.1px;
+}
