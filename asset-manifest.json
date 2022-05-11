@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/google/google-web/static/css/main.f1712a25.css",
+    "main.js": "/google/google-web/static/js/main.6488a02a.js",
+    "index.html": "/google/google-web/index.html",
+    "main.f1712a25.css.map": "/google/google-web/static/css/main.f1712a25.css.map",
+    "main.6488a02a.js.map": "/google/google-web/static/js/main.6488a02a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1712a25.css",
+    "static/js/main.6488a02a.js"
+  ]
+}
