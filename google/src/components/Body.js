@@ -10,7 +10,7 @@ const Body = () => {
         <div className={styles.bHair}>
             <div className={styles.bIntroBox}>
                 <span className={styles.red}>Live!</span>
-                <a href='' className={styles.subLink}>Google을 시청하세요</a>
+                <a href='' className={styles.subLink}>Google I/O을 시청하세요</a>
                 <span> 최신 기능, 소식, 출시 계획을 소개합니다</span>
             </div>
             <div className={styles.bBox}>
