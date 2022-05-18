@@ -8,11 +8,11 @@ import styles from "../css/Body.module.css";
 const Body = () => {
     return (
         <div className={styles.bHair}>
-            <div className={styles.bIntroBox}>
+            {/* <div className={styles.bIntroBox}>
                 <span className={styles.red}>Live!</span>
                 <a href='' className={styles.subLink}>Google I/O을 시청하세요</a>
                 <span> 최신 기능, 소식, 출시 계획을 소개합니다</span>
-            </div>
+            </div> */}
             <div className={styles.bBox}>
                 <div className={styles.bLayout}>
                     <div className={styles.bLayout}>
